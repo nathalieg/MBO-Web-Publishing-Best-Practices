@@ -1,0 +1,459 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Custom Forms CSS test page</title>
+		<link href="css/mcFormStylesPlain.css" rel="stylesheet" type="text/css" media="screen" />
+<!--<link href="css/mcFormStyles.css" rel="stylesheet" type="text/css" media="screen" />-->	
+	</head>
+	
+	<body>
+		<form action="">
+		<div id="mc-form">
+			<h1>Form title</h1>
+			<p class="required">* Required field.</p>
+			
+			<fieldset>
+				<legend><span>Fieldset 1</span></legend>
+				<ol>
+					<li>
+						<label for="tb1"><span class="required">*</span> Text box</label>
+						<input type="text" name="tb1" id="tb1" />
+						<input type="button" name="bif1" value="bif1" id="bif1" />
+						<input type="image" name="iif1" value="iif1" id="iif1" src="img/information-white.png" />
+						<span class="help">Support Text</span>
+					</li>
+					<li>
+						<fieldset class="checkbox-radio-group">
+							<legend><span class="required">*</span> <span>Checkbox group 1</span></legend>
+							<ol>
+								<li>
+									<input type="checkbox" name="cbif1" value="cbif1-1" id="cbif1-1" />
+									<label for="cbif1-1">Checkbox input field item 1</label>
+								</li>
+								<li>
+									<input type="checkbox" name="cbif1" value="cbif1-2" id="cbif1-2" />
+									<label for="cbif1-2">Checkbox input field item 2</label>
+								</li>
+								<li>
+									<input type="checkbox" name="cbif1" value="cbif1-3" id="cbif1-3" />
+									<label for="cbif1-3">Checkbox input field item 3</label>
+								</li>
+							</ol>
+						</fieldset>
+					</li>
+					<li>
+						<label for="fif1"><span class="required">*</span> File input field 1</label>
+						<input type="file" name="fif1" id="fif1" />
+					</li>
+					<li><input type="hidden" name="hif1" value="hif1" id="hif1" /></li>
+					<li>
+						<label for="tb2"><span class="required">*</span> Calender box</label>
+						<input type="text" name="tb2" id="tb2" />
+						<input type="image" name="iif1" value="iif1" id="iif1" src="img/calendar-month.png" />
+					</li>
+					<li>
+						<label for="pif1"><span class="required">*</span> Password input field 1</label>
+						<input type="password" name="pif1" id="pif1" />
+					</li>
+					<li>
+						<fieldset class="checkbox-radio-group">
+							<legend><span class="required">*</span> <span>Radio button group 1</span></legend>
+							<ol>
+								<li>
+									<input type="radio" name="rbif1" value="rbif1-1" id="rbif1-1" />
+									<label for="rbif1-1">Radio button input field item 1</label>
+								</li>
+								<li>
+									<input type="radio" name="rbif1" value="rbif1-2" id="rbif1-2" />
+									<label for="rbif1-2">Radio button input field item 2</label>
+								</li>
+								<li>
+									<input type="radio" name="rbif1" value="rbif1-3" id="rbif1-3" />
+									<label for="rbif1-3">Radio button input field item 3</label>
+								</li>
+							</ol>
+						</fieldset>
+					</li>
+					<li>
+						<ol class="button-group">
+							<li><input type="reset" value="Reset1" alt="Reset1" /></li>
+							<li><input type="submit" value="Submit1" alt="Submit1" /></li>
+						</ol>
+					<li>
+						<label for="tif1"><span class="required">*</span> Text input field 1</label>
+						<input type="text" name="tif1" id="tif1" />
+					</li>
+					<li>
+						<label for="taf1"><span class="required">*</span> Text area 1</label>
+						<textarea name="taf1" id="taf1"></textarea>
+					</li>
+					<li>
+						<label for="sf1"><span class="required">*</span> Select field 1</label>
+						<select name="sf1" id="sf1">
+							<optgroup label="Option group 1">
+								<option value="I1G1">Item 1, Group 1</option>
+								<option value="I2G1">Item 2, Group 1</option>
+								<option value="I3G1">Item 3, Group 1</option>
+							</optgroup>
+							<optgroup label="Option group 2">
+								<option value="I1G2">Item 1, Group 2</option>
+								<option value="I2G2">Item 2, Group 2</option>
+								<option value="I3G2">Item 3, Group 2</option>
+							</optgroup>
+							<optgroup label="Option group 3">
+								<option value="I1G3">Item 1, Group 3</option>
+								<option value="I2G3">Item 2, Group 3</option>
+								<option value="I3G3">Item 3, Group 3</option>
+							</optgroup>
+						</select>
+					</li>
+					<li>
+						<label for="tb3"><span class="required">*</span> Text box</label>
+						<input type="text" name="tb3" id="tb3" />
+						<button name="btn1" id="btn1">button1</button>
+					</li>
+					<li>
+						<fieldset>
+							<legend><span>Fieldset 2</span></legend>
+							<ol>
+								<li><input type="button" name="bif2" value="bif2" id="bif2" /></li>
+								<li>
+									<fieldset class="checkbox-radio-group">
+										<legend><span class="required">*</span> <span>Checkbox group 2</span></legend>
+										<ol>
+											<li>
+												<input type="checkbox" name="cbif2" value="cbif2-1" id="cbif2-1" />
+												<label for="cbif2-1">Checkbox input field item 1</label>
+											</li>
+											<li>
+												<input type="checkbox" name="cbif2" value="cbif2-2" id="cbif2-2" />
+												<label for="cbif2-2">Checkbox input field item 2</label>
+											</li>
+											<li>
+												<input type="checkbox" name="cbif2" value="cbif2-3" id="cbif2-3" />
+												<label for="cbif2-3">Checkbox input field item 3</label>
+											</li>
+										</ol>
+									</fieldset>
+								</li>
+								<li>
+									<label for="fif2"><span class="required">*</span> File input field 2</label>
+									<input type="file" name="fif2" id="fif2" />
+								</li>
+								<li><input type="hidden" name="hif2" value="hif2" id="hif2" /></li>
+								<li><input type="image" name="iif2" value="iif2" id="iif2" src="img/calendar-month.png" /></li>
+								<li>
+									<label for="pif2"><span class="required">*</span> Password input field 2</label>
+									<input type="password" name="pif2" id="pif2" />
+								</li>
+								<li>
+									<fieldset class="checkbox-radio-group">
+										<legend><span class="required">*</span> <span>Radio button group 2</span></legend>
+										<ol>
+											<li>
+												<input type="radio" name="rbif2" value="rbif2-1" id="rbif2-1" />
+												<label for="rbif2-1">Radio button input field item 1</label>
+											</li>
+											<li>
+												<input type="radio" name="rbif2" value="rbif2-2" id="rbif2-2" />
+												<label for="rbif2-2">Radio button input field item 2</label>
+											</li>
+											<li>
+												<input type="radio" name="rbif2" value="rbif2-3" id="rbif2-3" />
+												<label for="rbif2-3">Radio button input field item 3</label>
+											</li>
+										</ol>
+									</fieldset>
+								</li>
+								<li>
+									<ol class="button-group">
+											<li><input type="reset" value="reset2" alt="reset2" /></li>
+											<li><input type="submit" value="submit2" alt="submit2" /></li>
+									</ol>
+								</li>
+								<li>
+									<label for="tif2"><span class="required">*</span> Text input field 2</label>
+									<input type="text" name="tif2" id="tif2" />
+								</li>
+								<li>
+									<label for="taf2"><span class="required">*</span> Text area 2</label>
+									<textarea name="taf2" id="taf2"></textarea>
+								</li>
+								<li>
+									<label for="sf2"><span class="required">*</span> Select field 2</label>
+									<select name="sf2" id="sf2">
+										<optgroup label="Option group 2">
+											<option value="I1G1">Item 1, Group 1</option>
+											<option value="I2G1">Item 2, Group 1</option>
+											<option value="I3G1">Item 3, Group 1</option>
+										</optgroup>
+										<optgroup label="Option group 2">
+											<option value="I1G2">Item 1, Group 2</option>
+											<option value="I2G2">Item 2, Group 2</option>
+											<option value="I3G2">Item 3, Group 2</option>
+										</optgroup>
+										<optgroup label="Option group 3">
+											<option value="I1G3">Item 1, Group 3</option>
+											<option value="I2G3">Item 2, Group 3</option>
+											<option value="I3G3">Item 3, Group 3</option>
+										</optgroup>
+									</select>
+								</li>
+								<li><button name="btn2" id="btn2">button2</button></li>
+								<li>
+									<fieldset>
+										<legend><span>Fieldset 3</span></legend>
+										<ol>
+											<li><input type="button" name="bif3" value="bif3" id="bif3" /></li>
+											<li>
+												<fieldset class="checkbox-radio-group">
+													<legend><span class="required">*</span> <span>Checkbox group 3</span></legend>
+													<ol>
+														<li>
+															<input type="checkbox" name="cbif3" value="cbif3-1" id="cbif3-1" />
+															<label for="cbif3-1">Checkbox input field item 1</label>
+														</li>
+														<li>
+															<input type="checkbox" name="cbif1" value="cbif3-2" id="cbif3-2" />
+															<label for="cbif3-2">Checkbox input field item 2</label>
+														</li>
+														<li>
+															<input type="checkbox" name="cbif1" value="cbif3-3" id="cbif3-3" />
+															<label for="cbif3-3">Checkbox input field item 3</label>
+														</li>
+													</ol>
+												</fieldset>
+											</li>
+											<li>
+												<label for="fif3"><span class="required">*</span> File input field 3</label>
+												<input type="file" name="fif3" id="fif3" />
+											</li>
+											<li><input type="hidden" name="hif3" value="hif3" id="hif3" /></li>
+											<li><input type="image" name="iif3" value="iif3" id="iif3" src="img/calendar-month.png" /></li>
+											<li>
+												<label for="pif3"><span class="required">*</span> Password input field 3</label>
+												<input type="password" name="pif3" id="pif3" />
+											</li>
+											<li>
+												<fieldset class="checkbox-radio-group">
+													<legend><span class="required">*</span> <span>Radio button group 3</span></legend>
+													<ol>
+														<li>
+															<input type="radio" name="rbif3" value="rbif3-1" id="rbif3-1" />
+															<label for="rbif3-1">Radio button input field item 1</label>
+														</li>
+														<li>
+															<input type="radio" name="rbif3" value="rbif3-2" id="rbif3-2" />
+															<label for="rbif3-2">Radio button input field item 2</label>
+														</li>
+														<li>
+															<input type="radio" name="rbif3" value="rbif3-3" id="rbif3-3" />
+															<label for="rbif3-3">Radio button input field item 3</label>
+														</li>
+													</ol>
+												</fieldset>
+											</li>
+											<li>
+												<ol class="button-group">
+													<li><input type="reset" value="reset3" alt="reset3" /></li>
+													<li><input type="submit" value="submit3" alt="submit3" /></li>
+												</ol>
+											</li>
+											<li>
+												<label for="tif3"><span class="required">*</span> Text input field 3</label>
+												<input type="text" name="tif3" id="tif3" />
+											</li>
+											<li>
+												<label for="taf3"><span class="required">*</span> Text area 3</label>
+												<textarea name="taf3" id="taf3"></textarea>
+											</li>
+											<li>
+												<label for="sf3"><span class="required">*</span> Select field 3</label>
+												<select name="sf3" id="sf3">
+													<optgroup label="Option group 3">
+														<option value="I1G1">Item 1, Group 1</option>
+														<option value="I2G1">Item 2, Group 1</option>
+														<option value="I3G1">Item 3, Group 1</option>
+													</optgroup>
+													<optgroup label="Option group 2">
+														<option value="I1G2">Item 1, Group 2</option>
+														<option value="I2G2">Item 2, Group 2</option>
+														<option value="I3G2">Item 3, Group 2</option>
+													</optgroup>
+													<optgroup label="Option group 3">
+														<option value="I1G3">Item 1, Group 3</option>
+														<option value="I2G3">Item 2, Group 3</option>
+														<option value="I3G3">Item 3, Group 3</option>
+													</optgroup>
+												</select>
+											</li>
+											<li><button name="btn3" id="btn3">button3</button></li>
+										</ol>
+									</fieldset>
+								</li>
+							</ol>
+						</fieldset>
+					</li>
+				</ol>
+			</fieldset>
+			
+			<fieldset class="odd">
+				<legend><span>Fieldset 4</span></legend>
+				<ol>
+					<li><input type="button" name="bif4" value="bif4" id="bif4" /></li>
+					<li><input type="checkbox" name="cbif4" value="cbif4-1" id="cbif4-1" /></li>
+					<li><input type="file" name="fif4" id="fif4" /></li>
+					<li><input type="hidden" name="hif4" value="hif4" id="hif4" /></li>
+					<li><input type="image" name="iif4" value="iif4" id="iif4" src="img/calendar-month.png" /></li>
+					<li><input type="password" name="pif4" id="pif4" /></li>
+					<li><input type="radio" name="rbif4" value="rbif4-1" id="rbif4-1" /></li>
+					<li>
+						<ol class="button-group">
+							<li><input type="reset" value="reset4" alt="reset4" /></li>
+							<li><input type="submit" value="submit4" alt="submit4" /></li>
+						</ol>
+					</li>
+					<li><input type="text" name="tif4" id="tif4" /></li>
+					<li><textarea name="taf4" id="taf4"></textarea></li>
+					<li>
+						<select name="sf4" id="sf4">
+							<optgroup label="Option group 1">
+								<option value="I1G1">Item 1, Group 1</option>
+								<option value="I2G1">Item 2, Group 1</option>
+								<option value="I3G1">Item 3, Group 1</option>
+							</optgroup>
+							<optgroup label="Option group 2">
+								<option value="I1G2">Item 1, Group 2</option>
+								<option value="I2G2">Item 2, Group 2</option>
+								<option value="I3G2">Item 3, Group 2</option>
+							</optgroup>
+							<optgroup label="Option group 3">
+								<option value="I1G3">Item 1, Group 3</option>
+								<option value="I2G3">Item 2, Group 3</option>
+								<option value="I3G3">Item 3, Group 3</option>
+							</optgroup>
+						</select>
+					</li>
+					<li><button name="btn4" id="btn4">button4</button></li>
+					<li>
+						<fieldset class="button-group">
+							<ol>
+								<li><input type="reset" value="Reset5" alt="Reset5" /></li>
+								<li><input type="submit" value="Submit5" alt="Submit5" /></li>
+							</ol>
+						</fieldset>
+					</li>
+					<li>
+						<fieldset>
+							<legend><span>Fieldset 5</span></legend>
+							<ol>
+								<li><input type="button" name="bif5" value="bif5" id="bif5" /></li>
+								<li><input type="checkbox" name="cbif5" value="cbif5-1" id="cbif5-1" /></li>
+								<li><input type="file" name="fif5" id="fif5" /></li>
+								<li><input type="hidden" name="hif5" value="hif5" id="hif5" /></li>
+								<li><input type="image" name="iif5" value="iif5" id="iif5" src="img/calendar-month.png" /></li>
+								<li><input type="password" name="pif5" id="pif5" /></li>
+								<li><input type="radio" name="rbif5" value="rbif5-1" id="rbif5-1" /></li>
+								<li>
+									<ol class="button-group">
+										<li><input type="reset" value="Reset6" alt="reset6" /></li>
+										<li><input type="submit" value="Submit6" alt="submit6" /></li>
+									</ol>
+								</li>
+								<li><input type="text" name="tif5" id="tif5" /></li>
+								<li><textarea name="taf5" id="taf5"></textarea></li>
+								<li>
+									<select name="sf5" id="sf5">
+										<optgroup label="Option group 1">
+											<option value="I1G1">Item 1, Group 1</option>
+											<option value="I2G1">Item 2, Group 1</option>
+											<option value="I3G1">Item 3, Group 1</option>
+										</optgroup>
+										<optgroup label="Option group 2">
+											<option value="I1G2">Item 1, Group 2</option>
+											<option value="I2G2">Item 2, Group 2</option>
+											<option value="I3G2">Item 3, Group 2</option>
+										</optgroup>
+										<optgroup label="Option group 3">
+											<option value="I1G3">Item 1, Group 3</option>
+											<option value="I2G3">Item 2, Group 3</option>
+											<option value="I3G3">Item 3, Group 3</option>
+										</optgroup>
+									</select>
+								</li>
+								<li><button name="btn5" id="btn5">button5</button></li>
+								<li>
+									<fieldset class="button-group">
+										<ol>
+											<li><input type="reset" value="Reset7" alt="Reset7" /></li>
+											<li><input type="submit" value="Submit7" alt="Submit7" /></li>
+										</ol>
+									</fieldset>
+								</li>
+								<li>
+									<fieldset>
+										<legend><span>Fieldset 6</span></legend>
+										<ol>
+											<li><input type="button" name="bif6" value="bif6" id="bif6" /></li>
+											<li><input type="checkbox" name="cbif6" value="cbif6-1" id="cbif6-1" /></li>
+											<li><input type="file" name="fif6" id="fif6" /></li>
+											<li><input type="hidden" name="hif6" value="hif6" id="hif6" /></li>
+											<li><input type="image" name="iif6" value="iif6" id="iif6" src="img/calendar-month.png" /></li>
+											<li><input type="password" name="pif6" id="pif6" /></li>
+											<li><input type="radio" name="rbif6" value="rbif6-1" id="rbif6-1" /></li>
+											<li>
+												<ol class="button-group">
+													<li><input type="reset" value="Reset8" alt="reset8" /></li>
+													<li><input type="submit" value="Submit8" alt="submit8" /></li>
+												</ol>
+											</li>
+											<li><input type="text" name="tif6" id="tif6" /></li>
+											<li><textarea name="taf6" id="taf6"></textarea></li>
+											<li>
+												<select name="sf6" id="sf6">
+													<optgroup label="Option group 1">
+														<option value="I1G1">Item 1, Group 1</option>
+														<option value="I2G1">Item 2, Group 1</option>
+														<option value="I3G1">Item 3, Group 1</option>
+													</optgroup>
+													<optgroup label="Option group 2">
+														<option value="I1G2">Item 1, Group 2</option>
+														<option value="I2G2">Item 2, Group 2</option>
+														<option value="I3G2">Item 3, Group 2</option>
+													</optgroup>
+													<optgroup label="Option group 3">
+														<option value="I1G3">Item 1, Group 3</option>
+														<option value="I2G3">Item 2, Group 3</option>
+														<option value="I3G3">Item 3, Group 3</option>
+													</optgroup>
+												</select>
+											</li>
+											<li><button name="btn6" id="btn6">button6</button></li>
+											<li>
+												<fieldset class="button-group">
+													<ol>
+														<li><input type="reset" value="Reset9" alt="Reset9" /></li>
+														<li><input type="submit" value="Submit9" alt="Submit9" /></li>
+													</ol>
+												</fieldset>
+											</li>
+										</ol>
+									</fieldset>
+								</li>
+							</ol>
+						</fieldset>
+					</li>
+				</ol>
+			</fieldset>
+			
+			<fieldset class="button-group">
+				<ol>
+					<li><input type="reset" value="Reset10" alt="Reset10" /></li>
+					<li><input type="submit" value="Submit10" alt="Submit10" /></li>
+				</ol>
+			</fieldset>
+		</div>
+		</form>
+	</body>
+</html>

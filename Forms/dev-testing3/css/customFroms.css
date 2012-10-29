@@ -1,0 +1,110 @@
+form {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	}
+
+input {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+fieldset {
+	border-style: none;
+}
+
+fieldset legend span {
+	font-size: 14px;
+	font-weight: bold;
+	color: #444;
+}
+
+label {
+	color: #444;
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: right;
+	width: 40%;
+}
+
+.button-group li {
+	margin-bottom: 0;
+	display: inline;
+}
+
+.checkbox-radio-group legend span {
+	font-size: 12px;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.checkbox-radio-group legend {
+	float: left;
+	font-weight: bold;
+	padding-right: 5px;
+	text-align: right;
+	width: 40%;
+}
+
+.checkbox-radio-group label {
+	float: none;
+	font-weight: normal;
+	text-align: left;
+	width: auto;
+}
+
+.checkbox-radio-group ol {
+	float: left;
+	margin-bottom: 12px;
+}
+
+.checkbox-radio-group li {
+	margin-bottom: 0;
+}
+
+/*
+.span-12 legend {
+	margin-left: 20px;
+	padding-top: 40px; 
+}
+*/
+
+textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+select {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+ul {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	list-style-type: square;
+	list-style-position: outside;
+}
+
+li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin-bottom: 12px;
+}
+
+ol {
+	list-style-type: none;
+}
+
+.help {
+	color: #888;
+	font-style: italic;
+	font-size: 10px;
+	padding-left: 195px;
+}
+
+.required {
+	color: red;
+	font-size: 12px;
+	font-weight: normal;
+}

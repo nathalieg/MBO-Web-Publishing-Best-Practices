@@ -1,0 +1,23 @@
+/* --------------------------------------------------------------
+
+   layout.css
+   * Sets up positioning of elements.
+
+-------------------------------------------------------------- */
+
+.hide { height: 1px; left: -9999px; position: absolute; top: -9999px; width: 1px; }
+.hide-overflow, .list-box, .hide { overflow: hidden; }
+.float-divider{ clear: both; display: block; }
+.no-float, .box { float: none; }
+
+/*
+  These can be used to pull an image at the start of a paragraph, so
+  that the text flows around it (usage: <p><img class="left">Text</p>)
+ */
+.left { float: left !important; }
+.right { float: right !important; }
+
+/* These classes will complement the pull and push classes in the spacing.css
+   file by positionning the pushed/pulled colunm to the left.  */
+
+.pull-1, .pull-2, .pull-3, .pull-4, .pull-5, .pull-6, .pull-7, .pull-8, .pull-9, .pull-10, .pull-11, .pull-12, .pull-13, .pull-14, .push-1, .push-2, .push-3, .push-4, .push-5, .push-6, .push-7, .push-8, .push-9, .push-10, .push-11, .push-12, .push-13, .push-14, .push-15 { float: left; position:relative; }

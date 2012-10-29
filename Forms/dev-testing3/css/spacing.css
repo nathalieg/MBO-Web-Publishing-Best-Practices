@@ -1,0 +1,124 @@
+/* --------------------------------------------------------------
+
+   spacing.css
+   * Sets up margins and padding for elements. Only margins and 
+   * padding in pixels are kept in this file except if you need 
+   * to add a gutter above/below an element these are specified
+   * in ems.
+
+-------------------------------------------------------------- */
+/* spacing helpers
+p,m = padding,margin
+a,t,r,b,l,h,v = all,top,right,bottom,left,horizontal,vertical
+s,m,l,n = small(5px),medium(10px),large(20px),none(0px) */
+
+.ptn,.pvn,.pan,.top,p .left,p .right { padding-top:0px !important; }
+.pts,.pvs,.pas { padding-top:5px !important; }
+.ptm,.pvm,.pam { padding-top:10px !important; }
+.ptl,.pvl,.pal { padding-top:20px !important; }
+.prn,.phn,.pan,.last,p .left,p .right { padding-right:0px !important; }
+.prs,.phs,.pas { padding-right:5px !important; }
+.prm,.phm,.pam { padding-right:10px !important; }
+.prl,.phl,.pal { padding-right:20px !important; }
+.pbn,.pvn,.pan,.bottom,p .left,p .right { padding-bottom:0px !important; }  
+.pbs,.pvs,.pas { padding-bottom:5px !important; }
+.pbm,.pvm,.pam { padding-bottom:10px !important; }
+.pbl,.pvl,.pal { padding-bottom:20px !important; }
+.pln,.phn,.pan,.first,p .left,p .right { padding-left:0px !important; }
+.pls,.phs,.pas { padding-left:5px !important; }
+.plm,.phm,.pam { padding-left:10px !important; }
+.pll,.phl,.pal { padding-left:20px !important; }
+.mtn,.mvn,.man,h1 img,h2 img,h3 img,h4 img,h5 img,h6 img { margin-top:0px !important; }
+.mts,.mvs,.mas { margin-top:5px !important; }
+.mtm,.mvm,.mam { margin-top:10px !important; }
+.mtl,.mvl,.mal { margin-top:20px !important; }
+.mrn,.mhn,.man,h1 img,h2 img,h3 img,h4 img,h5 img,h6 img,.last { margin-right:0px !important; }
+.mrs,.mhs,.mas, label { margin-right:5px !important; }
+.mrm,.mhm,.mam { margin-right:10px !important; }
+.mrl,.mhl,.mal { margin-right:20px !important; }
+.mbn,.mvn,.man,h1 img,h2 img,h3 img,h4 img,h5 img,h6 img,.bottom { margin-bottom:0px !important; }  
+.mbs,.mvs,.mas { margin-bottom:5px !important; }
+.mbm,.mvm,.mam { margin-bottom:10px !important; }
+.mbl,.mvl,.mal { margin-bottom:20px !important; }
+.mln,.mhn,.man,h1 img,h2 img,h3 img,h4 img,h5 img,h6 img,.first { margin-left:0px !important; }
+.mls,.mhs,.mas { margin-left:5px !important; }
+.mlm,.mhm,.mam { margin-left:10px !important; }
+.mll,.mhl,.mal { margin-left:20px !important; }
+
+/* Add these to a column to append empty cols. */
+
+.append-1 { padding-right: 40px; }
+.append-2 { padding-right: 80px; }
+.append-3 { padding-right: 120px; }
+.append-4 { padding-right: 160px; }
+.append-5 { padding-right: 200px; }
+.append-6 { padding-right: 240px; }
+.append-7 { padding-right: 280px; }
+.append-8 { padding-right: 320px; }
+.append-9 { padding-right: 360px; }
+.append-10 { padding-right: 400px; }
+.append-11 { padding-right: 440px; }
+.append-12 { padding-right: 480px; }
+.append-13 { padding-right: 520px; }
+.append-14 { padding-right: 560px; }
+.append-15 { padding-right: 600px; }
+
+/* Add these to a column to prepend empty cols. */
+
+.prepend-1 { padding-left: 40px; }
+.prepend-2 { padding-left: 80px; }
+.prepend-3 { padding-left: 120px; }
+.prepend-4 { padding-left: 160px; }
+.prepend-5 { padding-left: 200px; }
+.prepend-6 { padding-left: 240px; }
+.prepend-7 { padding-left: 280px; }
+.prepend-8 { padding-left: 320px; }
+.prepend-9 { padding-left: 360px; }
+.prepend-10 { padding-left: 400px; }
+.prepend-11 { padding-left: 440px; }
+.prepend-12 { padding-left: 480px; }
+.prepend-13 { padding-left: 520px; }
+.prepend-14 { padding-left: 560px; }
+.prepend-15 { padding-left: 600px; }
+
+/* Use these classes on an element to push it into the
+next column, or to pull it into the previous column.  */
+
+.pull-1 { margin-left: -40px; }
+.pull-2 { margin-left: -80px; }
+.pull-3 { margin-left: -120px; }
+.pull-4 { margin-left: -160px; }
+.pull-5 { margin-left: -200px; }
+.pull-6 { margin-left: -240px; }
+.pull-7 { margin-left: -280px; }
+.pull-8 { margin-left: -320px; }
+.pull-9 { margin-left: -360px; }
+.pull-10 { margin-left: -400px; }
+.pull-11 { margin-left: -440px; }
+.pull-12 { margin-left: -480px; }
+.pull-13 { margin-left: -520px; }
+.pull-14 { margin-left: -560px; }
+.pull-15 { margin-left: -600px; }
+
+.push-1 { margin: 0 -40px 1.5em 40px; }
+.push-2 { margin: 0 -80px 1.5em 80px; }
+.push-3 { margin: 0 -120px 1.5em 120px; }
+.push-4 { margin: 0 -160px 1.5em 160px; }
+.push-5 { margin: 0 -200px 1.5em 200px; }
+.push-6 { margin: 0 -240px 1.5em 240px; }
+.push-7 { margin: 0 -280px 1.5em 280px; }
+.push-8 { margin: 0 -320px 1.5em 320px; }
+.push-9 { margin: 0 -360px 1.5em 360px; }
+.push-10 { margin: 0 -400px 1.5em 400px; }
+.push-11 { margin: 0 -440px 1.5em 440px; }
+.push-12 { margin: 0 -480px 1.5em 480px; }
+.push-13 { margin: 0 -520px 1.5em 520px; }
+.push-14 { margin: 0 -560px 1.5em 560px; }
+.push-15 { margin: 0 -600px 1.5em 600px; }
+
+/* Misc classes and elements
+-------------------------------------------------------------- */
+
+/* In case you need to add a gutter above/below an element */
+div.prepend-top, .prepend-top { margin-top:1.5em; }
+div.append-bottom, .append-bottom{ margin-bottom:1.5em; }

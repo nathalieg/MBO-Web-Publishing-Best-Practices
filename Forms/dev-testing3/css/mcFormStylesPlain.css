@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+/* Reset */
+form div, form span, form h1, form p, form a, form abbr, form acronym, form img, form ol, form li, form legend {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+a img {
+	border: none;
+}
+
+/* CSS Document */
+
+#mc-form {
+	background-color: #F5F5F5;
+	width: 590px;
+}
+
+form li {
+	list-style-type: none;
+}
+
+.container {
+	width: 590px;
+}
+
+input[type="text"] {width: 142px;}
+
+input[type="button"] {}
+
+input[type="image"] {}
+input[type="checkbox"] {}
+input[type="file"] {width: 142px;}
+input[type="hidden"] {}
+input[type="password"] {width: 142px;}
+input[type="radio"] {}
+input[type="reset"] {}
+input[type="submit"] {}
+textarea {width: 142px;}
+button {}
+select{width: 147px;}
+
+label {
+	border: 0;
+	/*display: block;*/
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	padding-right: 10px;
+	text-align: right;
+	vertical-align: baseline;
+	width: 195px;
+}
+fieldset ol li fiedlset ol li label, fieldset ol li fieldset ol li fiedlset ol li .checkbox-radio-group legend {
+	margin-left: -40px;	
+}
+
+legend {}
+option {}
+
+fieldset {
+	background-color: #E5E5E5;
+	border: 1px #BBB solid;
+	margin: 0 40px;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+.button-group li {
+	margin-bottom: 0;
+	display: inline;
+}
+
+.checkbox-radio-group {
+	border: 0;
+	margin: 0;
+}
+
+.checkbox-radio-group legend span {
+	font-size: 12px;
+/*	margin: 0 !important;
+	padding: 0 !important;
+*/}
+
+.checkbox-radio-group legend {
+	float: left;
+	font-weight: bold;
+	padding-right: 5px;
+	text-align: right;
+	width: 195px;
+}
+
+.checkbox-radio-group label {
+	float: none;
+	font-weight: normal;
+	text-align: left;
+	width: auto;
+}
+
+.checkbox-radio-group ol {
+	float: left;
+	margin-bottom: 12px;
+}
+
+.checkbox-radio-group li {
+	margin-bottom: 0;
+}
+
+.help {
+	color: #888;
+	font-style: italic;
+	font-size: 10px;
+	padding-left: 195px;
+}
+
+.required {
+	color: red;
+	font-size: 12px;
+	font-weight: normal;
+}
