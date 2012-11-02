@@ -30,11 +30,3 @@ La page « Contactez-nous » est conçue pour afficher les coordonnées pertin
 Lorsque vous révisez ou mettez à jour du contenu existant, assurez-vous que le lien « Contactez-nous » se trouve au bas de la page, au lieu de placer les coordonnées directement dans le contenu de la page. Cette étape est importante pour maintenir l'uniformité des sites, mesurer l'efficacité de la page « Contactez-nous » et répondre à notre objectif d'assurer une gestion efficace des coordonnées. 
 
 Dans votre contenu, lorsque vous créez des liens à des sections précises de la page « Contactez-nous », consultez les [instructions de codage](http://icweb.ic.gc.ca/eic/site/ipp-ppi.nsf/fra/00615.html) pour vous assurer que les renseignements pertinents apparaîtront à l'écran lorsqu'un utilisateur cliquera sur le lien.
- 
-##Suggestions
-Nous aimerions recevoir vos suggestions sur la façon d'améliorer la page « Contactez-nous ». Veuillez faire parvenir vos idées et vos recommandations à :
-Peter Smith
-Gestionnaire, Stratégie numérique et Service à la clientèle
-Direction générale des communications et du marketing
-613-948-1554
-peter.smith@ic.gc.ca

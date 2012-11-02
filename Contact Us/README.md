@@ -30,11 +30,3 @@ Contact Us is designed to reveal the contact information that is relevant to the
 When reviewing and updating your existing content, please ensure that it refers to Contact Us in the footer at the bottom of the page, as opposed to adding contact information directly into your page's content. This is key for maintaining consistency, measuring the effectiveness of the Contact Us page and meeting our goal of carefully managing contact information. 
 
 When creating links to specific points within Contact Us in your content, please refer to the [coding instructions](http://icweb.ic.gc.ca/eic/site/ipp-ppi.nsf/eng/00615.html) to ensure that the relevant information appears when the link is clicked.
- 
-##Suggestions
-We welcome your suggestions for improving the Contact Us page. Please forward your ideas and recommendations to:
-Peter Smith
-Manager, Digital Strategy and Client Service
-Communications and Marketing Branch
-613-948-1554
-peter.smith@ic.gc.ca
