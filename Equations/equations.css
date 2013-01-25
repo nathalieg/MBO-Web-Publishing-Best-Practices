@@ -1,0 +1,17 @@
+div.eqTitleBorder {
+	border: 1px solid #ddddee;
+	border-radius: 5px;
+}
+
+div.eqTitleBorder div {
+	background-color: #176ca7;
+	border-radius: 0 4px 0 5px;
+	color: #ffffff;
+	float: right;
+	margin-right: 0;
+	padding: 4px;
+}
+
+div.eqTitleBorder img {
+	padding: 3px;
+}
